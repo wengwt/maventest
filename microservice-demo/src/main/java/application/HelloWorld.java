@@ -13,8 +13,9 @@ public class HelloWorld {
 
     @RequestMapping("/")
     public String helloworld(){
-    	logger.info("hello world");
-        return "Hello world ";
+    	String msg = "hello world";
+    	logger.info(msg);
+        return msg;
         
     }
 
