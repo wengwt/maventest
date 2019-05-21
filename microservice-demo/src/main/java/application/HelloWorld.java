@@ -13,7 +13,7 @@ public class HelloWorld {
 
     @RequestMapping("/")
     public String helloworld(){
-    	String msg = "hello world";
+    	String msg = "hello world !!!";
     	logger.info(msg);
         return msg;
         
